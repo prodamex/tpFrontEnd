@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../sharedComponent/src/Header';
 import Footer from '../../sharedComponent/src/Footer';
-import Message from './Message';
+import Personnage from './Personnage';
 
 const RemoteButton = React.lazy(() => import('remote/Button'));
 import styled from 'styled-components';
@@ -24,7 +24,7 @@ const App = () => (
   <Component>
     <Header title={'Host'} />
     <Main>
-      <Message
+      <Personnage
         text={'Bienvenue dans la partie Host !'}
         image={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png'}
       />

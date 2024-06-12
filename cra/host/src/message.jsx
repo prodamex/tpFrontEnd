@@ -35,7 +35,7 @@ const Container = styled('div')`
   }
 `;
 
-const Message = ({ text, image }) => (
+const Personnage = ({ text, image }) => (
   <section>
     <Container>
       <img src={image} alt="Person speaking" />
@@ -43,4 +43,4 @@ const Message = ({ text, image }) => (
     </Container>
   </section>
 );
-export default Message;
+export default Personnage;

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Header from '../../sharedComponent/src/Header';
 import Pokemons from './Pokemons';
 import Footer from '../../sharedComponent/src/Footer';
-import Message from './Message';
+import Personnage from './Personnage';
 import FileUpload from './FileUpload'; // Importer le composant de téléversement de fichiers
 import FileList from './FileList'; // Importer le composant de liste de fichiers
 
@@ -27,7 +27,7 @@ const App = () => (
   <Component>
     <Header title={'Remote'} />
     <Main>
-      <Message
+      <Personnage
         text={'Bienvenue dans la partie Remote !'}
         image={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png'}
       />
